@@ -669,7 +669,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -693,7 +693,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 20px auto;
 }
 
 h2 {
@@ -767,7 +767,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -1018,6 +1018,22 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .portfolio-thumb {
+        display: inline-block;
+        text-align: center;
+    }/*raphael centrage des images dans le responsibe*/
+    .social {
+        display: flex;
+        justify-content: space-around;
+     } /*raphael centrage des images dans le responsibe*/
+     .liens {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+
+     } /*raphael centrage des images dans le responsibe*/
+}
 }
 
 @media (max-width: 400px) {
